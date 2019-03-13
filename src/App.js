@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import FadeInParagraph from './components/FadeInParagraph';
+import AnimatedSVG from './components/AnimatedSVG';
+
 
 class App extends Component {
   render() {
@@ -8,6 +10,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
             <FadeInParagraph>Learn React</FadeInParagraph>
+            <AnimatedSVG />
         </header>
       </div>
     );
